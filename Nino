@@ -2,12 +2,74 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="Les Minis Nino" content="width=device-width, initial-scale=1.0">
-    <title>Les Minis Nino en liberté</title>
-    <link rel="https://youtube.com/@nin_eau?si=JCpNTB3UEMNpyNxl" href="styles.css">
+    <meta name="Nino de compagnie" content="width=device-width, initial-scale=1.0">
+    <title>Nino de Compagnie</title> 
+    <link rel="https://youtube.com/@nin_eau?si=JCpNTB3UEMNpyNxl"
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenu dresseur de Nino !</h1>
-    <p>Ceci est un manque d'inspi.</p>
+    <header>
+        <h1>Bienvenue sur Ma Page Web</h1>
+    </header>
+    <nav>
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+    </nav>
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>Ceci est le contenu de la section 1.</p>
+        </section>
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>Ceci est le contenu de la section 2.</p>
+        </section>
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>Ceci est le contenu de la section 3.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ma Page Web. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
